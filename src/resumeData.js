@@ -1,5 +1,5 @@
 let resumeData = {
-  name: "Evan Feenstra",
+  name: "Name Namey McNamerson",
   role: "Frontend Web Developer",
   linkedinId:"evanfeenstra",
   skypeid: "Your skypeid",

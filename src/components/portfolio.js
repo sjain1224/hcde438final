@@ -44,8 +44,8 @@ export default class Porfolio extends Component {
 
       <Modal 
         visible={modal&&modal.name}
-        width="600"
-        minHeight="400"
+        width="800"
+        minHeight="500"
         effect="fadeInUp"
         onClickAway={() => this.closeModal()}
       >
