@@ -66,3 +66,33 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+```js
+<Modal
+  visible={modal && modal.name}
+  width="800"
+  minHeight="500"
+  effect="fadeInUp"
+  onClickAway={() => this.closeModal()}
+>
+  <div className="portfolio-modal">
+    <div>
+      <h1>{modal.title}</h1>
+      <div
+        style={{ display: "flex", justifyContent: "center", marginBottom: 12 }}
+      >
+        <img
+          alt="img"
+          src={modal.imgurl}
+          style={{ height: 75, display: "block" }}
+        />
+      </div>
+      <p>{modal.fullDescription}</p>
+      <a href={modal.githubLink} target="_blank" rel="noopener noreferrer">
+        <i className="fa fa-github"></i>&nbsp; Github Repository
+      </a>
+    </div>
+    <button onClick={() => this.closeModal()}>Close</button>
+  </div>
+</Modal>
+```
