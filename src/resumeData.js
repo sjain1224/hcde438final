@@ -1,9 +1,9 @@
 let resumeData = {
-  name: "Name Namey McNamerson",
+  name: "Evan Feenstra",
   role: "Frontend Web Developer",
   linkedinId:"evanfeenstra",
   skypeid: "Your skypeid",
-  roleDescription: "asdf  blah blahI like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or play music in my free time.",
+  roleDescription: "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or play music in my free time.",
   socialLinks:[
       {
         name:"linkedin",
@@ -72,7 +72,7 @@ let resumeData = {
   ],
   portfolio:[
     {
-      name:"project1",
+      name:"Chat APP!!!",
       description:"mobileapp",
       imgurl:"images/portfolio/phone.jpg",
       title:"Phone App",

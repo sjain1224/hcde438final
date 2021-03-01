@@ -24,7 +24,7 @@ export default class Porfolio extends Component {
               return(
                 <div key={i} className="columns portfolio-item">
                   <div className="item-wrap">
-                    <div onClick={()=>this.setState({modal:item})} style={{cursor:'pointer'}}>
+                    <div onClick={()=> this.setState({modal:item})} style={{cursor:'pointer'}}>
                       <img src={`${item.imgurl}`} className="item-img" alt="img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -41,6 +41,21 @@ export default class Porfolio extends Component {
           </div>
         </div>
       </div>
+
+      <Modal 
+        visible={modal && modal.title} 
+        effect="fadeInUp" 
+        onClickAway={() => this.closeModal()}>
+        <section style={{padding:40,textAlign:'center'}}>
+          <h1>{modal.title}</h1>
+          <p style={{fontSize:12,lineHeight:'20px',maxWidth:300}}>{modal.fullDescription}</p>
+          <img src={modal.imgurl} style={{height:100,display:'block',margin:'10px auto'}} />
+          <a href={modal.githubLink} target="_blank">
+            <i class="fa fa-github" style={{marginRight:5}}></i>
+            <span>Github Repository</span>
+          </a>
+        </section>
+      </Modal>
 
   </section>);
   }
