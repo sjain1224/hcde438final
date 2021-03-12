@@ -29,8 +29,10 @@ ul#nav li.current a {
   color:#F06000;
 }
 
-.profile-pic {
-  height: 100rem;
+.item-img {
+  height: 250px;
+  justify-content: center;
+  object-fit: cover;
 }
 
 

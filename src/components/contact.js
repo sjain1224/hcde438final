@@ -8,7 +8,7 @@ export default class ContactUs extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead" style={{color:'white'}}>
-                Feel free to contact me for any work or suggestions below
+                Looking for some awesome pictures from your next event or new photos to decorate your place? Contact me!
               </p>
             </div>
           </div>
