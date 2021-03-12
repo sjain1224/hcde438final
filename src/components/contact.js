@@ -17,6 +17,8 @@ export default class ContactUs extends Component {
               <div className="widget">
                 <h4>Linked in:&nbsp;<a target="_blank" rel="noopener noreferrer" href={`https://www.linkedin.com/in/${resumeData.linkedinId}`}>{resumeData.linkedinId}</a>
                 </h4>
+                <h4>Email:&nbsp;<a target="_blank" rel="noopener noreferrer" href={`mailto:${resumeData.email}`}>{resumeData.email}</a>
+                </h4>
               </div>
             </aside>
           </div>

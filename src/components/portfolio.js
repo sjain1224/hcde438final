@@ -29,7 +29,7 @@ export default class Porfolio extends Component {
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
-                          <p>{item.description}</p>
+                          <p>{item.location}</p>
                         </div>
                       </div>
                     </div>
@@ -43,17 +43,13 @@ export default class Porfolio extends Component {
       </div>
 
       <Modal 
-        visible={modal && modal.title} 
+        visible={modal && modal.name} 
         effect="fadeInUp" 
         onClickAway={() => this.closeModal()}>
         <section style={{padding:40,textAlign:'center'}}>
-          <h1>{modal.title}</h1>
-          <p style={{fontSize:12,lineHeight:'20px',maxWidth:300}}>{modal.fullDescription}</p>
-          <img src={modal.imgurl} style={{height:100,display:'block',margin:'10px auto'}} />
-          <a href={modal.githubLink} target="_blank">
-            <i class="fa fa-github" style={{marginRight:5}}></i>
-            <span>Github Repository</span>
-          </a>
+          <h1 style={{fontSize:24}}>{modal.name}</h1>
+          <p style={{fontSize:18,lineHeight:'20px',maxWidth:750}}>{modal.fullDescription}</p>
+          <img src={modal.imgurl} style={{height:400,display:'block',margin:'10px auto'}} />
         </section>
       </Modal>
 

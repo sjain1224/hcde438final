@@ -37,18 +37,11 @@ export default class Header extends Component {
               <h3>I am a {resumeData.role}.&nbsp;{resumeData.roleDescription}
               </h3>
               <hr/>
-              <ul className="social">
-                {resumeData.socialLinks && resumeData.socialLinks.map(item =>{
-                  return(<li key={item.name}>
-                    <a href={item.url} target="_blank" rel="noopener noreferrer"><i className={item.className}></i></a>
-                  </li>)
-                })}
-              </ul>
             </div>
           </div>
 
           <p className="scrolldown">
-            <AnchorLink href="#about"><i className="icon-down-circle"></i></AnchorLink>
+            <AnchorLink href="#portfolio"><i className="icon-down-circle"></i></AnchorLink>
           </p>
 
         </header>
