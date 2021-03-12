@@ -12,56 +12,63 @@ let resumeData = {
       location:"Seattle, WA",
       imgurl:"images/portfolio/columbiatower.jpg",
       category:"Cityscape",
-      fullDescription:"this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app "
+      fullDescription:"Taken from the 75th floor of the Columbia Tower, this image reflects off of 2 mirrors while also looking out 2 seperate windows, creating a 360-degree view of Seattle in just one location!"
     },
     {
       name:"Space Needle in December",
       location:"Seattle, WA",
       imgurl:"images/portfolio/SeattleDec.jpg",
       category:"Cityscape",
-      fullDescription:"this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app "
+      fullDescription:"Taken in late December, this photo of the Seattle skyline was taken from Kerry Park in Queen Anne at around 6PM."
     },
     {
       name:"Interstate 5",
       location:"Seattle, WA",
       imgurl:"images/portfolio/Interstate.jpg",
       category:"Cityscape",
-      fullDescription:"this is a longer description about this app"
+      fullDescription:"Even late at night, I-5 was bustling with cars in this late-May picture in Downtown Seattle. This picture was taken from the 73rd Floor of the Columbia Tower using a long shutter."
     },
     {
       name:"Seattle Night",
       location:"Seattle, WA",
       imgurl:"images/portfolio/blueSea.jpg",
       category:"Cityscape",
-      fullDescription:"this is a longer description about this app"
+      fullDescription:"Seattle at sunset has its own unique beauty, especially in mid-May. This picture was taken from the 73rd floor of the Columbia Tower."
     },
     {
       name:"Lumen Field",
       location:"Seattle, WA",
       imgurl:"images/portfolio/Clink.jpg",
       category:"Cityscape",
-      fullDescription:"this is a longer description about this app"
+      fullDescription:"Back when it was called CenturyLink Field, Lumen Field in Seattle always has some event going on in it! This picture was taken from the 73rd floor of the Columbia Tower."
     },
     {
       name:"Glacier National Park",
       location:"Alaska",
       imgurl:"images/portfolio/GlacierBay.jpg",
       category:"Landscape",
-      fullDescription:"this is a longer description about this app"
+      fullDescription:"Glacier Bay National Park in Alaska"
     },
     {
       name:"Glacier Bay",
       location:"Alaska",
       imgurl:"images/portfolio/glacier.jpg",
       category:"Landscape",
-      fullDescription:"this is a longer description about this app"
+      fullDescription:"The famed glacier of Glacier Bay National Park in Alaska"
     },
     {
       name:"National Forest",
       location:"Skagway, AK",
       imgurl:"images/portfolio/Skagway.jpg",
       category:"Landscape",
-      fullDescription:"this is a longer description about this app"
+      fullDescription:"National Forest near Skagway, ALaska connecting the state to Canada nearby"
+    },
+    {
+      name:"Julia",
+      location:"Seattle, WA",
+      imgurl:"images/portfolio/Julia.jpg",
+      category:"Portrait",
+      fullDescription:"Taken at the University of Washington Campus in Seattle, Julia, a UW student, took advantage of the sun to get some new headshots taken!"
     }
   ],
 }
