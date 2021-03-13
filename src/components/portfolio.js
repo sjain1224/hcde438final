@@ -26,7 +26,7 @@ export default class Porfolio extends Component {
                 <div key={i} className="columns portfolio-item">
                   <div className="item-wrap">
                     <div onClick={()=> this.setState({modal:item})} style={{cursor:'pointer'}}>
-                      <img src={`${item.imgurl}`} className="item-img" alt="img"/>
+                      <img src={`${item.imgurl}`} className="item-img" alt={`${item.altText}`}/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5 style={{fontSize:16}}>{item.name}</h5>
@@ -48,10 +48,11 @@ export default class Porfolio extends Component {
         effect="fadeInUp" 
         onClickAway={() => this.closeModal()}>
         <section style={{padding:40,textAlign:'center'}}>
-          <h1 style={{fontSize:24}}>{modal.name}</h1>
-          <p style={{fontSize:18,lineHeight:'20px',maxWidth:750}}>{modal.fullDescription}</p>
+          <h1 style={{fontSize:24, marginBottom:5}}>{modal.name}</h1>
+          <p style={{fontSize:14}}><em>{modal.locationFull}</em></p>
+          <p style={{fontSize:18,lineHeight:'20px',maxWidth:750,marginBottom:10}}>{modal.fullDescription}</p>
           <p style={{fontSize:14}}>Category: {modal.category}</p>
-          <img src={modal.imgurl} style={{height:400,display:'block',margin:'10px auto'}} />
+          <img src={modal.imgurl} style={{height:400,display:'block',margin:'10px auto'}} alt={`${modal.altText}`}/>
         </section>
       </Modal>
 
