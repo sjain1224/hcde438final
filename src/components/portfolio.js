@@ -21,7 +21,7 @@ export default class Porfolio extends Component {
           <p style={{fontSize:18, textAlign:'center'}}>Click on each picture to view the full picture and learn more!</p>
           <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
           {
-            resumeData.portfolio && resumeData.portfolio.map((item, i)=>{
+            resumeData.portfolio && resumeData.portfolio[0] && resumeData.portfolio[0].map((item, i)=>{
               return(
                 <div key={i} className="columns portfolio-item">
                   <div className="item-wrap">
