@@ -73,6 +73,11 @@
       line-height: 46px;      
    }
 
+   /* Portfolio Section
+   /* ----------------------------------------------------------------- */
+   .popup-modal {	max-width: 85%; max-height: 750px; }
+   .modal-img { max-width: 450px;}
+
     /* Call to Action Section
    ------------------------------------------------------------------- */
    #call-to-action .header-col h1:before {
@@ -256,8 +261,8 @@
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
-   .popup-modal {	max-width: 85%; max-height: 500px; }
-   .modal-img { max-width: 300px;}
+   .popup-modal {	max-width: 85%; max-height: 450px; }
+   .modal-img { max-width: 300px; max-height: 300px;}
 
 
    /* Testimonials Section

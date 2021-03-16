@@ -52,7 +52,7 @@ export default class Porfolio extends Component {
           <p style={{fontSize:14}}><em>{modal.locationFull}</em></p>
           <p style={{fontSize:18,lineHeight:'20px',maxWidth:750,marginBottom:10}}>{modal.fullDescription}</p>
           <p style={{fontSize:14}}>Category: {modal.category}</p>
-          <img className="modal-img" src={modal.imgurl} style={{maxHeight:400,display:'block',margin:'10px auto'}} alt={`${modal.altText}`}/>
+          <img className="modal-img" src={modal.imgurl} style={{maxHeight:500,display:'block',margin:'10px auto'}} alt={`${modal.altText}`}/>
         </section>
       </Modal>
 
