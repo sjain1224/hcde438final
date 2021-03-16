@@ -256,7 +256,8 @@
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns { margin-bottom: 40px; }
-   .popup-modal {	max-width: 85%; }
+   .popup-modal {	max-width: 85%; max-height: 500px; }
+   .modal-img { max-width: 300px;}
 
 
    /* Testimonials Section
